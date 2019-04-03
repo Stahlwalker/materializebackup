@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+    <title>Materialize CSS</title>
+    <style>
+        nav .badge{
+            position: relative;
+            top: 20px;
+            right: 20px;
+        }
+        .box{
+            height: 200px;
+        }
+        .row > div{
+            padding: 10px;
+            background: #ddd;
+            border: 1px solid #fff;
+        }
+        .row{
+            margin: 40px auto;
+        }
+    </style>
+</head>
+<body>
+
+        <nav class="nav-wraper indigo">
+                <div class="container">
+                    <a href="#" class="brand-logo">Site Title</a>
+                    <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" class="btn-floating indigo darken-4 z-depth-0">
+                            <i class="material-icons">notifications</i>
+                        </a></li>
+                        <li><span class="badge white-text pink new"></span></li>
+                    </ul>
+                </div>  
+            </nav>
+        
+            <ul class="sidenav" id="mobile-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+            </ul>
+  
+    <div class="container">
+        <h1>Hey, ninjas!</h1>
+        <p class="flow-text">This is flow text</p>
+        <h4 class="hide">hide me on all screen sizes</h4>
+        <h5 class="blue darken-1">Be yourself, everyone else is already taken.</h5>
+
+    </div>
+
+    <div class="container grey lighten-2 box valign-wrapper">
+        <h5>Vertical Alignment</h5>
+    </div>
+
+    <div class="container">
+    <p class ="truncate">Throughout my career, I’ve been tasked with project managing the digital components of each marketing campaign. Project managing was just the tip of the iceberg, I wanted to dive deeper and gain access to the keys to the kingdom. In order to do that I had to tackle coding. Having a programming background enhances my ability to not only project manage but make the changes necessary to improve one’s brand recognition digitally. Stahlwalker is a company that benefits from years of marketing and web programming experience.</p>
+    </div>
+
+    <div class="container">
+        <h4>Buttons</h4>
+        <a href="#" class="btn">Normal button</a>
+        <a href="#" class="btn indigo waves-effect waves-light">Indigo button</a>
+        <h4>Floating button</h4>
+        <a href="#" class="btn-floating pink pulse"></a>
+    </div>
+
+    <div class="container">
+        <h4>icons</h4>
+        <i class="material-icons">error</i>
+        <i class="material-icons red-text">error</i>
+
+        <h4>Icons on Buttons</h4>
+        <a href="#" class="btn indigo">
+            <span>Send</span>
+            <i class="material-icons right">send</i>
+        </a>
+
+    </div>
+
+    <div class="container">
+    <h4>Grids</h4>
+
+    <div class="row">
+            <div class="col s3">content</div>
+            <div class="col s3">content</div>
+            <div class="col s3">content</div>
+            <div class="col s3">content</div>
+    </div>
+    <div class="row">
+            <div class="col s6 m3">content</div>
+            <div class="col s6 m3">content</div>
+            <div class="col s6 m3">content</div>
+            <div class="col s6 m3">content</div>
+    </div>
+    <div class="row">
+            <div class="col s12 m6 l4">content</div>
+            <div class="col s12 m6 l4">content</div>
+            <div class="col s12 m6 l4">content</div>
+            <div class="col s12 m6 l4">content</div>
+            <div class="col s12 m6 l4">content</div>
+            <div class="col s12 m6 l4">content</div>
+    </div>
+    <div class="row">
+            <div class="col s12 m6 l4 x12">content</div>
+            <div class="col s12 m6 l4 x12">content</div>
+            <div class="col s12 m6 l4 x12">content</div>
+            <div class="col s12 m6 l4 x12">content</div>
+            <div class="col s12 m6 l4 x12">content</div>
+            <div class="col s12 m6 l4 x12">content</div>
+    </div>
+
+    </div>
+
+    <div class="container">
+        <h2>Cards</h2>
+
+        <div class="row">
+            <div class="co1, s12 16">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/GreenB.jpg" alt="">
+                        <a href="#" class="halfway-fab btn-floating pink pulse">
+                            <i class="material-icons"> favorite</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Mango & Chickpea Curry</span>
+                        <p>Hey, in this Materialize CSS tutorial I'll explain what cards are, and how we can create them in a few lines of HTML and a handful of simple classes.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">More details</a>
+                        <a href="#">View ingredients</a>
+                    </div>
+                </div>
+            </div>
+            <div class="co1, s12, 16">
+                <div class="card">
+                        <div class="card-image">
+                            <img src="img/GreenBay.jpg" alt="">
+                            <a href="#" class="halfway-fab btn-floating pink pulse">
+                                <i class="material-icons"> favorite</i>
+                            </a>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Rainbow Pasta Salad</span>
+                            <p>Hey, in this Materialize CSS tutorial I'll explain what cards are, and how we can create them in a few lines of HTML and a handful of simple classes.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">More details</a>
+                            <a href="#">View ingredients</a>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Collections</h2>
+        <ul class="collection with-header">
+            <li class="collection-header">
+                <h4>Customers</h4>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons circle blue">person</i>
+                <span class="title">Ryu</span>
+                <p class="grey-text">black-belt</p>
+                    <a href="" class="secondary-content">
+                        <i class="material-icons blue-text">email</i>
+                    </a>
+            </li>
+            <li class="collection-item avatar">
+                    <i class="material-icons circle blue">person</i>
+                    <span class="title">Yoshi</span>
+                    <p class="grey-text">black-belt</p>
+                        <a href="" class="secondary-content">
+                            <i class="material-icons blue-text">email</i>
+                        </a>
+            </li>
+            <li class="collection-item avatar">
+                    <i class="material-icons circle blue">person</i>
+                    <span class="title">Crystal</span>
+                    <p class="grey-text">black-belt</p>
+                        <a href="" class="secondary-content">
+                            <i class="material-icons blue-text">email</i>
+                        </a>
+            </li>    
+            <li class="collection-item">Mario</li>
+            <li class="collection-item">Luigi</li>
+            <li class="collection-item">Bowser</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Modals</h2>
+
+        <a href="#terms" class="btn orange modal-trigger">Terms & Conditions</a>
+
+        <div class="modal" id="terms">
+            <div class="modal-content">
+                <h4>Terms & Conditions</h4>
+                <p>Hey gang, in this materialize tutorial we'll have a look at modals / pop-ups and how to create them!</p>
+
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="modal-close btn orange">Agree & Close</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+
+        $(document).ready(function(){
+            $('.modal').modal();
+        });
+    </script>
+</body>
+</html>
